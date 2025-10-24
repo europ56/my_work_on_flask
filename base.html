@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}Мой сайт{% endblock %}</title>
+    </head>
+<body>
+    <header>
+      {% block flash_messages %}
+        <div id="messages">
+            {% for msg in get_flashed_messages() %}
+            {{ msg }}
+            {% endfor %}
+      {% endblock %}
+        </div>
+        {% block header %}{% endblock %}
+    </header>
+    <nav>
+        {% block nav %}
+        
+        {% endblock %}
+    </nav>
+    <main>
+        {% block main %}
+        
+        {% endblock %}
+    </main>
+    <nav>
+      {% block nav_down %}
+      <a href="/">◀ Вернуться на главную</a></br></br>
+      {% endblock %}
+    </nav>
+  <footer>
+      <small>{% block footer %}©2025. Все права защищены. Версия сайта - 0.1.0. Дата последнего обновления - 10.24.2025.{% endblock %}</small>
+  </footer>
+</body>
+</html>
