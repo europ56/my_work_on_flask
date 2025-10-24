@@ -1,2 +1,43 @@
-# my_work_on_flask
-Hello. This is my first project written on a flask and using jinja2 templates, it has 6 pages with navigation, my achievements, information about the project, My contacts, registration, and profile are accessible only after registration and after logging out. This project will be maintained and updated as I learn new things in Python.
+# My Learning Journey - Flask Project
+
+Personal Flask web application where I track my programming learning progress.
+
+## Features
+- User registration and authentication
+- Session management
+- Profile system
+- Logout functionality
+- 6 interactive pages
+- Flash messages system
+
+## Technologies
+- Python 3
+- Flask
+- Jinja2 templates
+- HTML5
+- Sessions
+
+
+## Current Version: 0.1.0
+- Added user authentication system
+- Session-based profile management
+- Navigation between 6 pages
+
+## Planned Features
+- SQL database integration
+- CSS styling
+- Comment system
+- Achievement comments
+
+## Project Structure
+my-flask-site/
+├──app.py
+├──requirements.txt
+├──templates/
+│├── base.html
+│├── home.html
+│├── achievements.html
+│├── about_project.html
+│├── contacts.html
+│├── register.html
+│└── profile.html
