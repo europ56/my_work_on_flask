@@ -30,7 +30,6 @@ Personal Flask web application where I track my programming learning progress.
 - Achievement comments
 
 ## Project Structure
-my-flask-site/
 ├──app.py
 ├──requirements.txt
 ├──templates/
