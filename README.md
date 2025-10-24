@@ -29,14 +29,17 @@ Personal Flask web application where I track my programming learning progress.
 - Comment system
 - Achievement comments
 
+
+```markdown
 ## Project Structure
-├──app.py
-├──requirements.txt
-├──templates/
-│├── base.html
-│├── home.html
-│├── achievements.html
-│├── about_project.html
-│├── contacts.html
-│├── register.html
-│└── profile.html
+- app.py
+- requirements.txt  
+- README.md
+- templates/
+  - base.html
+  - home.html
+  - achievements.html
+  - about_project.html
+  - contacts.html
+  - register.html
+  - profile.html
